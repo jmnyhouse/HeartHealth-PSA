@@ -1,0 +1,1285 @@
+.container{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.headerImage{
+	height: 100vh;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+h1{
+	font-family: ruddy, sans-serif; 
+	font-weight: 700;
+	font-style: normal;
+	color: #034C3C;
+}
+
+p{
+	font-family: semplicitapro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	
+}
+
+.paragraphFlexParent{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  	align-items: center;
+}
+
+.firstParagraph{
+	color: white;
+}
+
+.secondParagraph{
+	color: white;
+}
+
+
+/*CARDS CSS*/
+
+.cardSection{
+	display: flex;
+	flex-wrap: row wrap;
+
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+
+
+h3 {
+	font-family: ruddy, sans-serif; 
+	font-weight: 400;
+	font-style: normal;
+}
+
+h4 {
+	font-family: semplicitapro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.content {
+	font-weight: 100;
+	text-align: left;
+}
+
+.carbs{
+	clear: both;
+}
+
+.animation {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.wrapper {
+  width: 80%;
+  /*padding: 4%;
+  /*margin: 20px auto;*/
+  background: #fff;
+}
+
+.wrapper.cards {
+  background: 0;
+  width: 100%;
+  /*padding: 20px 0 0 0;*/
+}
+
+.cardcontainer {
+  position: relative;
+  float: left;
+  /*height: 260px;
+  /*margin: 10px 0 10px 4%;*/
+  margin-right: 3.067484662576687%;
+  background: none;
+  
+  /* Set the depth of the elements */
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  perspective: 800px;
+}
+
+#rightsidecard{
+	margin-right: 0px;
+}
+
+.cardcontainer:nth-of-type(2n) {
+	margin-right: 0px;
+}
+
+.cardcontainer:first-child {
+  margin-left: 0;
+}
+
+.card {
+  width: 100%;
+  /*position: absolute;*/
+  cursor: pointer;
+  /* Set the transition effects */
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  -o-transition: -o-transform 0.4s;
+  transition: transform 0.4s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card.flipped {
+  -webkit-transform: rotateY( 180deg );
+  -moz-transform: rotateY( 180deg );
+  -o-transform: rotateY( 180deg );
+  transform: rotateY( 180deg );
+}
+
+.broccoliImage{
+  background-image: url(../images/broccolitransparent.png);
+  background-size: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.turkeyImage{
+  	background-image: url(../images/turkeytransparent.png);
+  	background-size: 100%;
+  	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.toastImage{
+  	background-image: url(../images/toasttransparent.png);
+  	background-size: 100%;
+  	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.avocadoImage{
+  	background-image: url(../images/avocadotransparent.png);
+  	background-size: 100%;
+  	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+.card .front,
+.card .back {
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card .back {
+  width: 94%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: left;
+}
+
+.card .back {
+  background: #444444;
+  -webkit-transform: rotateY( 180deg );
+  -moz-transform: rotateY( 180deg );
+  -o-transform: rotateY( 180deg );
+  transform: rotateY( 180deg );
+}
+
+.cardcontainer:first-child .card .front {
+  background: #C96C43;
+}
+
+.cardcontainer:first-child .card .back {
+  background: #C96C43;
+}
+
+.cardTitle {
+  margin: 0;
+  /*padding-top: 45px;*/
+  text-align:center;
+}
+
+.content {
+  font-weight: 100;
+  text-align: left;
+}
+
+.greenBackground{
+	background-color: #034C3C;
+}
+
+.BYP{
+	color: white;
+}
+
+a{
+	background-color: white;
+	color:#034C3C;
+	text-decoration: none;
+	font-family: semplicitapro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	display: inline-block;
+	text-align: center;
+}
+
+.bypButtons{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.fatsButton{
+	margin-right:0px;
+}
+
+a:nth-of-type(4n){
+	margin-right:0px;
+}
+
+.plateBackground{
+	background-image: url(../images/FullPlateIllustration.png);
+	background-size: 100%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.platedBroccoli{
+	background-image: url(../images/broccoliwithborder.png);
+	background-size: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	/*position: relative;*/
+	position: absolute;
+
+
+	display: inline-block;
+	display: none;
+	
+}
+
+
+.platedTurkey{
+	background-image: url(../images/turkeywithborder.png);
+	background-size: 100%;
+	/*margin-left:auto;
+	margin-right: auto;*/
+	position: absolute;
+
+	display: inline-block;
+	display: none;
+
+}
+
+.platedToast{
+	background-image: url(../images/toastwithbordersecondgo.png);
+	background-size: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	position: absolute;
+
+
+	display: inline-block;
+	display: none;
+
+}
+
+.platedAvocado{
+	background-image: url(../images/avocadowithborder.png);
+	background-size: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	position: absolute;
+
+
+	display: inline-block;
+	display: none;
+
+}
+
+.TYsectionBackground{
+	background-color: #EDCE83;
+}
+
+
+.TYphrase{
+
+}
+
+.firstPartofSentence{
+	font-family: semplicitapro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+
+	text-align:center;
+}
+
+.secondPartofSentence{
+	font-family: ruddy, sans-serif; 
+	font-weight: 700;
+	font-style: normal;
+
+	text-align: center;
+}
+
+.subscribeButton{
+	color: black;
+}
+
+.thankYouResponse{
+	
+}
+
+#email{
+	border: 0px;
+}
+
+.thankYouResponse{
+	display: none;
+	font-family: ruddy, sans-serif; 
+	font-weight: 700;
+	font-style: normal;
+	color: black;
+	text-align: center;
+
+}
+
+.footerImage{
+	background-repeat: no-repeat;
+
+}
+
+
+
+
+/* MOBILE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 767px){
+	.container{
+		width:87.5%; /* 280 pixels at a 320 pixel screen width (iPhone 3 / 4 / 5) */
+	}
+
+	.headerImage{
+		background-image: url(../images/background-09.jpg)
+	}
+
+	.spacer{
+		height: 70px;
+		background-color: white;
+		width: 100%;
+	}
+
+	h1{
+		font-size: 30px;
+		padding-bottom: 5.277777777777778%;
+		text-align: center;
+	
+	}
+
+	.initialParagraph{
+		padding-bottom: 7.142857142857143%;
+	
+
+	}
+
+	p{
+		font-size: 12px;
+		line-height: 16px;;
+	}
+
+	.introParagraphbackground{
+		width: 100%;
+		/*height: 480px;*/
+		background-color: #034C3C;
+		margin-bottom: 5.277777777777778%;
+		
+	}
+
+
+	.firstParagraph{
+		
+		margin-right: 5.277777777777778%;
+		padding-top: 7.142857142857143%;
+		padding-bottom: 7.142857142857143%;
+	
+	}
+
+	.secondParagraph{
+		padding-bottom: 7.142857142857143%;
+
+	}
+
+	h3 {
+		font-size: 29px;
+	}
+
+	h4{
+		padding-top: 20px;
+		font-size: 14px;
+		line-height: 18px;
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	.content {
+		padding-top: 20px;
+		margin-bottom: 20px;
+	}	
+
+	.protein .fats{
+		margin-left:3.067484662576687%;
+	}
+	
+	.rightsidecard{
+		margin-left:3.067484662576687%;
+	
+	}
+
+	.cardcontainer {
+		width: 100%;
+  		height: 430px;
+		
+	}
+	
+	.card {
+		height: 394px;
+		margin-right: 3.067484662576687%;
+	}
+
+
+	.broccoliImage{
+		width: 200px;
+		height: 200px;
+		margin-top: 90px;
+		
+	}
+	  
+	.turkeyImage{
+		width: 200px;
+		height: 200px;
+		margin-top: 90px;
+	}
+	  
+	.toastImage{
+		width: 200px;
+		height: 200px;
+		margin-top: 90px;
+	}
+	  
+	.avocadoImage{
+		width: 200px;
+		height: 200px;
+		margin-top: 90px;
+	}
+
+
+	.card .front,
+	.card .back {
+  		height: 356px;
+  		border-radius: 15px;
+  		line-height: 70px;
+  		font-size: 55px;
+  		padding-top:10px;
+  		box-shadow: 3px 5px 20px 2px rgba(0, 0, 0, 0.25);
+	}
+
+	.card .back {
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	.cardTitle {
+		font-size: 29px;
+		line-height: 40px;
+	}
+
+	.proteins{
+		line-height: 80px;
+	}
+	
+	.carb{
+		line-height: 80px;
+	}
+	
+	.fat{
+		line-height: 80px;
+	}
+
+	.content {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.greenBackground{
+		height: 511px;
+	}
+
+	.BYP{
+		padding-top: 29px;
+	}
+
+	.bypbuttons{
+		padding-top: 29px;
+		z-index: 1;
+	
+	}
+
+	a{
+		height: 50px;
+		width: 46.428571428571429%;
+		font-size: 18px;
+		/*line-height: 75px;*/
+		border-radius: 25px;
+	}
+
+	.fruitsButton{
+		margin-right: 7.142857142857143%;
+		margin-bottom: 7.142857142857143%;
+
+		line-height: 22px;
+	}
+
+	.proteinsButton{
+		
+
+		line-height: 50px;
+	}
+
+	.carbsButton{
+		margin-right: 7.142857142857143%;
+
+		line-height: 50px;
+		margin-bottom: 7.142857142857143%;
+
+	}
+
+	.fatsButton{
+		line-height: 50px;
+	}
+
+	.plateBackground{
+		width: 280px;
+		height: 213px;
+	}
+
+	.platedBroccoli{
+		width: 280px;
+		height: 235px;
+		margin-top:-20px;
+	}
+
+	.platedTurkey{
+		width: 280px;
+		height: 215px;
+		margin-top:-20px;
+	}
+
+	.platedToast{
+		width: 280px;
+		height: 230px;
+		margin-top:-20px;
+		margin-left: 10px;
+
+	}
+
+	.platedAvocado{
+		width: 280px;
+		height: 215px;
+		margin-top:-20px;
+
+	}
+
+
+	.TYsectionBackground{
+		height: 230px;
+		width: 100%;
+	}
+	
+	.thankYouParent{
+		
+	}
+	
+	.TYphrase{
+		width: 100%;
+	
+	}
+	
+	.firstPartofSentence{
+		font-size: 20px;
+		padding-top: 35px;
+
+	}
+	
+	.secondPartofSentence{
+		font-size: 40px;
+		padding-top: 25px;
+		padding-bottom: 30px;
+
+	}
+
+
+	form{
+		width: 73.214285714285714%;
+		margin-right: 7.142857142857143%;
+		height: 50%;
+		padding-bottom: 40px;
+		float: left;
+
+	}
+
+	.subscribeButton{
+		width: 19.642857142857143%;
+		line-height: 50px;
+		display: none;
+
+	}
+
+	.mobilesubscribeButton{
+		width: 19.642857142857143%;
+		height: 66px;
+		margin-bottom: 41px;
+	}
+
+	#email{
+		width: 100%;
+		height: 60px;
+		border-radius: 20px;
+	}
+
+	img{
+		width: 27px;
+		height: 27px;
+		margin-top: 19.5px;
+	}
+
+	.footerImage{
+		background-image: url(../images/footers-04.png);
+		width: 100%;
+		height: 100px;
+		background-size: 100%;
+	}
+
+	.thankYouResponse{
+		font-size: 30px;
+	
+	}
+}
+
+/* TABLET STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.container{
+		width:93.75%; /* 720 pixels at a 768 pixel screen width (iPads) */
+	}
+
+	.headerImage{
+		background-image: url(../images/backgrounds-05.jpg)
+	}
+
+
+	.spacer{
+		height: 94px;
+		background-color: white;
+		width: 100%;
+	}
+
+	h1{
+		font-size: 43px;
+		padding-bottom: 5.277777777777778%;
+		text-align: center;
+	
+	}
+
+	.initialParagraph{
+		padding-bottom: 5.277777777777778%;
+		padding-right: 5.277777777777778%;
+		padding-left: 5.277777777777778%;
+
+	}
+
+	p{
+		font-size: 22px;
+		line-height: 25px;;
+	}
+
+	.introParagraphbackground{
+		width: 100%;
+		/*height: 480px;*/
+		background-color: #034C3C;
+		margin-bottom: 5.277777777777778%;
+		
+	}
+
+
+	.firstParagraph{
+		width: 43.055555555555556%;
+		margin-right: 5.277777777777778%;
+		padding-top: 5.277777777777778%;
+		padding-bottom: 5.277777777777778%;
+	
+	}
+
+	.secondParagraph{
+		width: 43.055555555555556%;
+	}
+
+	h3 {
+		font-size: 35px;
+	}
+
+	h4{
+		padding-top: 20px;
+		font-size: 15px;
+		line-height: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	.content {
+		padding-top: 20px;
+		margin-bottom: 20px;
+	}	
+
+	.protein .fats{
+		margin-left: 3.067484662576687%;
+	}
+	
+	.rightsidecard{
+		margin-left: 3.067484662576687%;
+	
+	}
+
+	.cardcontainer {
+		width: 43.055555555555556%;
+  		height: 430px;
+	}
+	
+	
+	.card {
+		height: 394px;
+		margin-right: 3.067484662576687%;
+	}
+
+
+	.broccoliImage{
+		width: 200px;
+		height: 200px;
+		margin-top: 90px;
+	}
+	  
+	.turkeyImage{
+		width: 200px;
+		height: 200px;
+		margin-top: 90px;
+	}
+	  
+	.toastImage{
+		width: 200px;
+		height: 200px;
+		margin-top: 90px;
+	}
+	  
+	.avocadoImage{
+		width: 200px;
+		height: 200px;
+		margin-top: 90px;
+	}
+
+
+	.card .front,
+	.card .back {
+  		height: 394px;
+  		border-radius: 15px;
+  		line-height: 70px;
+  		font-size: 55px;
+  		padding-top:10px;
+  		box-shadow: 3px 5px 20px 2px rgba(0, 0, 0, 0.25);
+	}
+
+	.card .back {
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	.cardTitle {
+		font-size: 35px;
+		line-height: 40px;
+	}
+
+	.proteins{
+		line-height: 80px;
+	}
+	
+	.carb{
+		line-height: 80px;
+	}
+	
+	.fat{
+		line-height: 80px;
+	}
+
+	.content {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+
+	.greenBackground{
+		height: 930px;
+	}
+
+	.BYP{
+		padding-top: 70px;
+	}
+
+	.bypbuttons{
+		padding-top: 50px;
+		z-index: 1;
+	
+	}
+
+	a{
+		height: 50px;
+		width: 22.5%;
+		font-size: 18px;
+		/*line-height: 75px;*/
+		border-radius: 25px;
+	}
+
+	.fruitsButton{
+		margin-right: 3.067484662576687%;
+		margin-bottom: 3.067484662576687%;
+		line-height: 25px;
+	}
+
+	.proteinsButton{
+		margin-right: 3.067484662576687%;
+		line-height: 50px;
+	}
+
+	.carbsButton{
+		margin-right: 3.067484662576687%;
+		line-height: 50px;
+	}
+
+	.fatsButton{
+		line-height: 50px;
+	}
+
+	.plateBackground{
+		width: 640px;
+		height: 488px;
+	}
+
+	.platedBroccoli{
+		width: 640px;
+		height: 550px;
+		margin-top:-40px;
+	}
+
+	.platedTurkey{
+		width: 640px;
+		height: 488px;
+		margin-top:-40px;
+
+	}
+
+	.platedToast{
+		width: 640px;
+		height: 550px;
+		margin-top:-40px;
+
+	}
+
+	.platedAvocado{
+		width: 640px;
+		height: 488px;
+		margin-top:-40px;
+
+	}
+
+
+	.TYsectionBackground{
+		height: 149px;
+		width: 100%;
+	}
+	
+	.thankYouParent{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.TYphrase{
+		width: 25.766871165644172%;
+	
+	}
+	
+	.firstPartofSentence{
+		font-size: 15px;
+		padding-top: 35px;
+
+	}
+	
+	.secondPartofSentence{
+		font-size: 35px;
+		padding-top: 25px;
+	}
+
+	form{
+		width: 39.877300613496933%;
+		margin-right: 3.067484662576687%;
+		margin-left: 3.067484662576687%;
+
+		height: 50%;
+		padding-top: 41.5px;
+
+	}
+
+	.subscribeButton{
+		width: 22.699386503067485%;
+		line-height: 62px;
+		height: 62px;
+		margin-top: 41.5px;
+
+	}
+
+	.mobilesubscribeButton{
+		display: none;
+	}
+
+	#email{
+		width: 100%;
+		height: 60px;
+		border-radius: 20px;
+		-webkit-appearance: none;
+	}
+
+	.footerImage{
+		background-image: url(../images/footers-05.png);
+		width: 100%;
+		height: 190px;
+		background-size: 100%;
+	}
+
+	.thankYouResponse{
+		font-size: 43px;
+	
+	}
+
+}
+
+/* DESKTOP STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 1025px){
+	.container{
+		/*width:978px;*/
+		width:95.5%;
+	}
+
+	.headerImage{
+		background-image: url(../images/background-07.jpg)
+	}
+
+
+	.spacer{
+		height: 45px;
+		background-color: white;
+		width: 100%;
+	}
+
+	h1{
+		font-size: 65px;
+		padding-bottom: 3.067484662576687%;
+		text-align: center;
+	
+	}
+
+	.initialParagraph{
+		padding-bottom: 3.067484662576687%;
+	}
+
+	p{
+		font-size: 30px;
+		line-height: 43px;;
+	}
+
+	.introParagraphbackground{
+		width: 100%;
+		/*height: 480px;*/
+		background-color: #034C3C;
+		margin-bottom: 3.067484662576687%;
+		
+	}
+
+
+	.firstParagraph{
+		width: 48.466257668711656%;
+		margin-right: 3.067484662576687%;
+		padding-top: 3.067484662576687%;
+		padding-bottom: 3.067484662576687%;
+	
+	}
+
+	.secondParagraph{
+		width: 48.466257668711656%;
+	}
+
+	h3 {
+		font-size: 55px;
+	}
+
+	h4{
+		padding-top: 20px;
+		font-size: 23px;
+		line-height: 32px;
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	.content {
+		padding-top: 20px;
+		margin-bottom: 20px;
+	}	
+
+	.protein .fats{
+		margin-left:3.067484662576687%;
+	}
+	
+	.rightsidecard{
+		margin-left:3.067484662576687%;
+	}
+
+	.cardcontainer {
+		width: 48.466257668711656%;
+  		height: 640px;
+	}
+
+	
+	.card {
+		height: 550px;
+		margin-right: 3.067484662576687%;
+	}
+
+
+	.broccoliImage{
+		width: 350px;
+		height: 350px;
+		margin-top: 130px;
+	}
+	  
+	.turkeyImage{
+		width: 350px;
+		height: 350px;
+		margin-top: 130px;
+	}
+	  
+	.toastImage{
+		width: 350px;
+		height: 350px;
+		margin-top: 130px;
+	}
+	  
+	.avocadoImage{
+		width: 350px;
+		height: 350px;
+		margin-top: 130px;
+	}
+
+
+	.card .front,
+	.card .back {
+  		height: 600px;
+  		border-radius: 15px;
+  		line-height: 70px;
+  		font-size: 55px;
+  		padding-top:10px;
+  		box-shadow: 3px 5px 20px 2px rgba(0, 0, 0, 0.25);
+	}
+
+	.card .back {
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	.cardTitle {
+		font-size: 55px;
+		line-height: 70px;
+	}
+
+	.proteins{
+		line-height: 145px;
+	}
+	
+	.carb{
+		line-height: 145px;
+	}
+	
+	.fat{
+		line-height: 145px;
+	}
+
+	.content {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.greenBackground{
+		height:880px;
+	}
+	
+	.BYP{
+		padding-top: 40px;
+	}
+	
+	a{
+		height: 75px;
+		width: 22.699386503067485%;
+		font-size: 22px;
+		/*line-height: 75px;*/
+		border-radius: 30px;
+	}
+
+	.fruitsButton{
+		margin-right: 3.067484662576687%;
+		margin-bottom: 3.067484662576687%;
+		line-height: 35px;
+		letter-spacing: 6px;
+
+	}
+
+	.proteinsButton{
+		margin-right: 3.067484662576687%;
+		letter-spacing: 6px;
+		line-height: 75px;
+	}
+
+	.carbsButton{
+		margin-right: 3.067484662576687%;
+		letter-spacing: 6px;
+		line-height: 75px;
+	}
+
+	.fatsButton{
+		letter-spacing: 6px;
+		line-height: 75px;
+	}
+
+	.plateBackground{
+		width: 640px;
+		height: 488px;
+	}
+
+	.platedBroccoli{
+		width: 640px;
+		height: 550px;
+		margin-top:-40px;
+	}
+
+	.platedTurkey{
+		width: 640px;
+		height: 488px;
+		margin-top:-40px;
+
+	}
+
+	.platedToast{
+		width: 640px;
+		height: 550px;
+		margin-top:-40px;
+
+	}
+
+	.platedAvocado{
+		width: 640px;
+		height: 488px;
+		margin-top:-40px;
+
+	}
+
+	.TYsectionBackground{
+		height: 149px;
+		width: 100%;
+
+	}
+	
+	.thankYouParent{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.TYphrase{
+		width: 25.766871165644172%;
+	
+	}
+	
+	.firstPartofSentence{
+		font-size: 20px;
+		padding-top: 35px;
+
+	}
+	
+	.secondPartofSentence{
+		font-size: 40px;
+		padding-top: 25px;
+	}
+
+	form{
+		width: 39.877300613496933%;
+		margin-right: 3.067484662576687%;
+		padding-top: 41px;
+		height: 75px;
+
+
+	}
+
+	.subscribeButton{
+		width: 22.699386503067485%;
+		margin-top: 40px;
+		line-height: 75px;
+		letter-spacing: 6px;
+	}
+
+	.mobilesubscribeButton{
+		display: none;
+	}
+
+	#email{
+		width: 100%;
+		height: 60px;
+		border-radius: 20px;
+	}
+
+	.footerImage{
+		background-image: url(../images/footers-06.png);
+		width: 100%;
+		height: 190px;
+		background-size: 100%;
+	}
+
+	.thankYouResponse{
+		font-size: 65px;
+		margin-top: -80px;
+	}
+
+
+
+
+}
